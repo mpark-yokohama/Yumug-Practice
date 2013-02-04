@@ -18,6 +18,16 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+	
+	UIWebView *webView = [[UIWebView alloc] init];
+	webView.frame = self.view.frame;
+	[self.view addSubview:webView];
+
+	
+	NSURL *yumugweb = [[NSURL alloc] initWithString:@"http://www.yu-mug.jp"];
+	NSURLRequest *request = [[NSURLRequest alloc] initWithURL:yumugweb];
+	[webView loadRequest:request];
+	
 }
 
 - (void)didReceiveMemoryWarning
