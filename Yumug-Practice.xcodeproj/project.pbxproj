@@ -23,6 +23,8 @@
 		E96CA27716BFD3400074464A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E96CA25216BFD33F0074464A /* Foundation.framework */; };
 		E96CA27F16BFD3400074464A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E96CA27D16BFD3400074464A /* InfoPlist.strings */; };
 		E96CA28216BFD3400074464A /* Yumug_PracticeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E96CA28116BFD3400074464A /* Yumug_PracticeTests.m */; };
+		E9D82A0C16C5186700E5B5BE /* YMDPUViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D82A0B16C5186700E5B5BE /* YMDPUViewController.m */; };
+		E9D82A0D16C5186700E5B5BE /* YMDPUViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D82A0B16C5186700E5B5BE /* YMDPUViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,8 @@
 		E96CA27E16BFD3400074464A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E96CA28016BFD3400074464A /* Yumug_PracticeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Yumug_PracticeTests.h; sourceTree = "<group>"; };
 		E96CA28116BFD3400074464A /* Yumug_PracticeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Yumug_PracticeTests.m; sourceTree = "<group>"; };
+		E9D82A0A16C5186700E5B5BE /* YMDPUViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMDPUViewController.h; sourceTree = "<group>"; };
+		E9D82A0B16C5186700E5B5BE /* YMDPUViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMDPUViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +126,8 @@
 				E96CA26816BFD33F0074464A /* MainStoryboard.storyboard */,
 				E96CA26B16BFD33F0074464A /* YMDViewController.h */,
 				E96CA26C16BFD33F0074464A /* YMDViewController.m */,
+				E9D82A0A16C5186700E5B5BE /* YMDPUViewController.h */,
+				E9D82A0B16C5186700E5B5BE /* YMDPUViewController.m */,
 				E96CA25716BFD33F0074464A /* Supporting Files */,
 			);
 			path = "Yumug-Practice";
@@ -274,6 +280,7 @@
 				E96CA25D16BFD33F0074464A /* main.m in Sources */,
 				E96CA26116BFD33F0074464A /* YMDAppDelegate.m in Sources */,
 				E96CA26D16BFD33F0074464A /* YMDViewController.m in Sources */,
+				E9D82A0C16C5186700E5B5BE /* YMDPUViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E96CA28216BFD3400074464A /* Yumug_PracticeTests.m in Sources */,
+				E9D82A0D16C5186700E5B5BE /* YMDPUViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,6 +462,7 @@
 				E96CA28716BFD3400074464A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E96CA28816BFD3400074464A /* Build configuration list for PBXNativeTarget "Yumug-PracticeTests" */ = {
 			isa = XCConfigurationList;
@@ -462,6 +471,7 @@
 				E96CA28A16BFD3400074464A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
